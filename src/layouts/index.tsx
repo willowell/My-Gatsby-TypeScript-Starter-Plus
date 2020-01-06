@@ -10,8 +10,6 @@ import LayoutRoot from '../components/LayoutRoot'
 import LayoutMain from '../components/LayoutMain'
 import MyNavbar from '../components/MyNavbar'
 
-
-
 interface StaticQueryProps {
   site: {
     siteMetadata: {
@@ -44,9 +42,7 @@ const IndexLayout: React.FC = ({ children }) => (
             { name: 'keywords', content: data.site.siteMetadata.keywords }
           ]}
         />
-        <LayoutMain>
-          {children}
-        </LayoutMain>
+        <LayoutMain>{children}</LayoutMain>
       </LayoutRoot>
     )}
   />

@@ -1,18 +1,12 @@
-import { Link } from "gatsby"
+import { Link } from 'gatsby'
 
-import { Navbar, Nav, NavItem, Form, FormControl, Button } from "react-bootstrap"
+import { Navbar, Nav, NavItem, Form, FormControl, Button } from 'react-bootstrap'
 
 export default () => {
   return (
     <Navbar bg="dark" variant="dark" fixed="top">
       <Navbar.Brand href="/">
-        <img
-          src="/favicon.ico"
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-          alt="G"
-        />
+        <img src="/favicon.ico" width="30" height="30" className="d-inline-block align-top" alt="G" />
       </Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="/">Home</Nav.Link>

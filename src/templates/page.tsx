@@ -51,7 +51,6 @@ export const query = graphql`
 `
 
 const PageTemplate: React.SFC<PageTemplateProps> = ({ data }) => {
-
   return (
     <IndexLayout>
       <Page>
@@ -66,5 +65,3 @@ const PageTemplate: React.SFC<PageTemplateProps> = ({ data }) => {
 }
 
 export default PageTemplate
-
-
