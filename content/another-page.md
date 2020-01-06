@@ -74,7 +74,7 @@ void main() {
 	}
 }
 ```
-[![A dope ass advertiser-friendly video](http://img.youtube.com/vi/IndDk5xtye0/0.jpg)](http://www.youtube.com/watch?v=IndDk5xtye0 "Si K. K. o Mode")
+[![A dope ass advertiser-friendly video](https://img.youtube.com/vi/IndDk5xtye0/0.jpg)](https://www.youtube.com/watch?v=IndDk5xtye0 "Si K. K. o Mode")
 
 CLICK THIS IMAGE TO ASCEND INSTANTLY
 
