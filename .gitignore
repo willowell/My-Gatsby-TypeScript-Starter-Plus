@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # =========================
 # Node.js-Specific Ignores
 # =========================
@@ -113,3 +114,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+=======
+node_modules
+>>>>>>> Stashed changes
