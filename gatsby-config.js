@@ -12,7 +12,6 @@ module.exports = {
       email: 'resir014@gmail.com'
     }
   },
-  pathPrefix: "/My-Gatsby-TypeScript-Starter-Plus",
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
