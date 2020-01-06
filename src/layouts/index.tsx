@@ -34,7 +34,6 @@ const IndexLayout: React.FC = ({ children }) => (
     `}
     render={(data: StaticQueryProps) => (
       <LayoutRoot>
-        <MyNavbar />
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
@@ -42,6 +41,7 @@ const IndexLayout: React.FC = ({ children }) => (
             { name: 'keywords', content: data.site.siteMetadata.keywords }
           ]}
         />
+        <MyNavbar />
         <LayoutMain>{children}</LayoutMain>
       </LayoutRoot>
     )}

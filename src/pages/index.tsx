@@ -6,7 +6,6 @@ import Container from '../components/Container'
 import IndexLayout from '../layouts'
 
 import Button from 'react-bootstrap/Button'
-import MyNavbar from '../components/MyNavbar'
 
 const IndexPage = () => (
   <IndexLayout>
