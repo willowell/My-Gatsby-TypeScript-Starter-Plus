@@ -5,6 +5,9 @@ import Page from '../components/Page'
 import Container from '../components/Container'
 import IndexLayout from '../layouts'
 
+import Button from "react-bootstrap/Button"
+import MyNavbar from '../components/MyNavbar'
+
 const IndexPage = () => (
   <IndexLayout>
     <Page>
@@ -13,6 +16,9 @@ const IndexPage = () => (
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
         <Link to="/page-2/">Go to page 2</Link>
+        <div>
+          <Button onClick={() => console.log("Oof!")}>Click me! </Button>
+        </div>
       </Container>
     </Page>
   </IndexLayout>

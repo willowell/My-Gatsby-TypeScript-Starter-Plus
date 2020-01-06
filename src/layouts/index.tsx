@@ -8,6 +8,9 @@ import '../styles/normalize'
 import Header from '../components/Header'
 import LayoutRoot from '../components/LayoutRoot'
 import LayoutMain from '../components/LayoutMain'
+import MyNavbar from '../components/MyNavbar'
+
+
 
 interface StaticQueryProps {
   site: {
@@ -33,6 +36,7 @@ const IndexLayout: React.FC = ({ children }) => (
     `}
     render={(data: StaticQueryProps) => (
       <LayoutRoot>
+        <MyNavbar />
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
@@ -40,8 +44,9 @@ const IndexLayout: React.FC = ({ children }) => (
             { name: 'keywords', content: data.site.siteMetadata.keywords }
           ]}
         />
-        <Header title={data.site.siteMetadata.title} />
-        <LayoutMain>{children}</LayoutMain>
+        <LayoutMain>
+          {children}
+        </LayoutMain>
       </LayoutRoot>
     )}
   />

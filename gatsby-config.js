@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'content',
+        name: 'code',
         path: `${__dirname}/src/content`
       }
     },
@@ -30,7 +30,10 @@ module.exports = {
               wrapperStyle: 'margin-bottom: 1rem'
             }
           },
-          'gatsby-remark-prismjs',
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {},
+          },
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
           {

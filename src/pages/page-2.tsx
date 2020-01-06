@@ -18,6 +18,9 @@ const PageTwo = () => (
           <li>
             <Link to="/">Take me back home.</Link>
           </li>
+          <li>
+            <Link to="/another-page/">Show me some more Markdown!</Link>
+          </li>
         </ul>
       </Container>
     </Page>

@@ -5,6 +5,7 @@ const StyledLayoutMain = styled.main`
   display: flex;
   flex-direction: column;
   flex: 1;
+  padding-top: 60px;
 `
 
 interface LayoutMainProps {
