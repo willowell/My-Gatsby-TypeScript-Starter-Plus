@@ -7,7 +7,7 @@ import '../styles/normalize'
 
 import Footer from "../components/Footer"
 import LayoutRoot from '../components/LayoutRoot'
-import LayoutHome from '../components/LayoutHome'
+import LayoutMain from '../components/LayoutMain'
 import MyNavbar from '../components/MyNavbar'
 
 interface StaticQueryProps {
@@ -20,10 +20,10 @@ interface StaticQueryProps {
   }
 }
 
-const IndexLayout: React.FC = ({ children }) => (
+const PageLayout: React.FC = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query IndexLayoutQuery {
+      query PageLayoutQuery {
         site {
           siteMetadata {
             title
@@ -46,7 +46,7 @@ const IndexLayout: React.FC = ({ children }) => (
           display: "flex",
           flexDirection: "column",
           flex: 1,
-          paddingTop: "0px"
+          paddingTop: "60px"
         }}>
           {children}
         </div>
@@ -56,4 +56,4 @@ const IndexLayout: React.FC = ({ children }) => (
   />
 )
 
-export default IndexLayout
+export default PageLayout

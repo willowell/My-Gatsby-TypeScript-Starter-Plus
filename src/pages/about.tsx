@@ -3,10 +3,10 @@ import { Link } from 'gatsby'
 
 import Page from '../components/Page'
 import Container from '../components/Container'
-import IndexLayout from '../layouts'
+import PageLayout from "../layouts/page"
 
-const PageTwo = () => (
-  <IndexLayout>
+const AboutPage = () => (
+  <PageLayout>
     <Page>
       <Container>
         <h1>Hi from the second page</h1>
@@ -24,7 +24,7 @@ const PageTwo = () => (
         </ul>
       </Container>
     </Page>
-  </IndexLayout>
+  </PageLayout>
 )
 
-export default PageTwo
+export default AboutPage

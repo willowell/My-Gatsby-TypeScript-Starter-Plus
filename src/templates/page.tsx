@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 
 import Page from '../components/Page'
 import Container from '../components/Container'
-import IndexLayout from '../layouts'
+import PageLayout from '../layouts/page'
 
 interface PageTemplateProps {
   data: {
@@ -51,7 +51,7 @@ export const query = graphql`
 
 const PageTemplate: React.SFC<PageTemplateProps> = ({ data }) => {
   return (
-    <IndexLayout>
+    <PageLayout>
       <Page>
         <Container>
           <h1>{data.markdownRemark.frontmatter.title}</h1>
@@ -59,7 +59,7 @@ const PageTemplate: React.SFC<PageTemplateProps> = ({ data }) => {
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         </Container>
       </Page>
-    </IndexLayout>
+    </PageLayout>
   )
 }
 

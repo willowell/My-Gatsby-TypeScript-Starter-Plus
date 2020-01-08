@@ -11,18 +11,23 @@ const MyNavLinks = () => {
         </Link>
       </Nav.Item>
       <Nav.Item>
-        <Link className="nav-link" to="/page-2/">
-          Page 2
+        <Link className="nav-link" to="/blog/">
+          Blog
         </Link>
       </Nav.Item>
       <Nav.Item>
-        <Link className="nav-link" to="/a-markdown-page/">
-          A Markdown Page
+        <Link className="nav-link" to="/about/">
+          About
         </Link>
       </Nav.Item>
       <Nav.Item>
-        <Link className="nav-link" to="/another-page/">
-          Another Markdown Page
+        <Link className="nav-link" to="/contact/">
+          Contact
+        </Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Link className="nav-link" to="/my-files/">
+          File Data
         </Link>
       </Nav.Item>
     </Nav>

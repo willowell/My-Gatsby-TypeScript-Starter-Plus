@@ -1,6 +1,8 @@
 ---
 layout: page
-title: 'Example Markdown page'
+title: "Another Page"
+date: "2020-01-08"
+excerpt: "ASCENSION!!!!!!"
 ---
 
 ```cpp
@@ -74,9 +76,12 @@ void main() {
 	}
 }
 ```
-[![A dope ass advertiser-friendly video](https://img.youtube.com/vi/IndDk5xtye0/0.jpg)](https://www.youtube.com/watch?v=IndDk5xtye0 "Si K. K. o Mode")
 
-CLICK THIS IMAGE TO ASCEND INSTANTLY
+CLICK THIS VIDEO TO ASCEND INSTANTLY
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IndDk5xtye0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 
 [That's cool! Okay, take me back home.](/)

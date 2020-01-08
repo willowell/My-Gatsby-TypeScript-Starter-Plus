@@ -1,6 +1,8 @@
 ---
 layout: page
-title: 'Example Markdown page'
+title: "A Markdown Page"
+date: "2020-01-06"
+excerpt: "Happy Cool Fun Time!!!!"
 ---
 
 Now we're writing in Markdown! Pretty nice, huh?
