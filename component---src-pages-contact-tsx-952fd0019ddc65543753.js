@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"0Aie":function(n,t,e){"use strict";e.r(t);e("q1tI");var c=e("NqE+"),u=e("TBFr"),a=e("q5rw"),l=e("qKvR");t.default=function(){return Object(l.d)(a.a,null,Object(l.d)(c.a,null,Object(l.d)(u.a,null,Object(l.d)("h1",null,"Hi from the contact page!"))))}}}]);
+//# sourceMappingURL=component---src-pages-contact-tsx-952fd0019ddc65543753.js.map
