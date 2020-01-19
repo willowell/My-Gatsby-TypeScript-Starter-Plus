@@ -7,6 +7,9 @@
   My Website Experiment
 </h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b5680bbd-ecd1-460a-99ac-7a245697778e/deploy-status)](https://app.netlify.com/sites/cranky-benz-7c95c0/deploys)
+![GitHub](https://img.shields.io/github/license/willowell/My-Gatsby-TypeScript-Starter-Plus)
+
 Based on [gatsby-starter-typescript-plus](https://www.gatsbyjs.org/starters/resir014/gatsby-starter-typescript-plus/)
 
 ## 🗒️ Features
