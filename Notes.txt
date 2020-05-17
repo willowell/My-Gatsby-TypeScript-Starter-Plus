@@ -1,0 +1,5 @@
+Notes
+
+
+For typing GraphQL queries with TS:
+https://stackoverflow.com/questions/27875483/typescript-reference-subtype-of-type-definition-interface/44844096#44844096
